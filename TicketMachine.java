@@ -82,7 +82,7 @@ public class TicketMachine
      * Método para mostrar por pantalla..
      */
     public void showPrice(){
-        System.out.println("The price of a ticket is" + price + "cents.");
+        System.out.println("The price of a ticket is " + price + " cents.");
     
     }
     
