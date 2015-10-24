@@ -75,4 +75,20 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    /***
+     * Método para mostrar por pantalla..
+     */
+    public void prompt(){
+        System.out.println("Please, insert the correct amount of money.");
+    
+    }
+    
+    /**
+     *
+     * Método para asignar un precio de billete
+     */
+    public void setPrice(int valorPrecio){
+        price = valorPrecio;
+    }
 }
